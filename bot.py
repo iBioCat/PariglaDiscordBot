@@ -4,6 +4,9 @@ from discord.ext import commands
 from discord.ext.commands import Bot
 from itertools import cycle
 import datetime
+import random
+import requests
+import os
 
 from googleapiclient.discovery import build
 from httplib2 import Http
